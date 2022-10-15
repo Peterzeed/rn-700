@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BACKEND_URL =
-  "https://rn-proj-bd894-default-rtdb.asia-southeast1.firebasedatabase.app";
+  "";  //ใช้ Key ของท่านเอง
 
 export async function storeMovement(expenseData) {
   const response = await axios.post(
